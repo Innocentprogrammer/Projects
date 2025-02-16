@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1 class="todo-title">TODO LIST</h1>
+        <div class="todo-controls">
+            <button class="add-task-btn">Add Task</button>
+            <select class="filter-tasks">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
 
+        <div class="todo-list">
+            <div class="todo-item">
+                <input type="checkbox" class="todo-checkbox">
+                <div class="todo-content">
+                    <p class="todo-text">Create a React project </p>
+                    <small class="todo-date">5:23 AM, 01/06/2022</small>
+                </div>
+                <div class="todo-actions">
+                    <button class="btn delete-btn">
+                        <img src="delete_13170203.png" width="15px" alt="delete">
+                    </button>
+                    <button class="btn edit-btn">
+                        <img src="image1.webp" width="25px" alt="edit">
+                    </button>
+                </div>
+            </div>
+
+        
+            <div class="todo-item completed">
+                <input type="checkbox" class="todo-checkbox" checked>
+                <div class="todo-content">
+                    <p class="todo-text completed-text">Create a Todo App </p>
+                    <small class="todo-date">5:21 AM, 01/06/2022</small>
+                </div>
+                <div class="todo-actions">
+                    <button class="btn delete-btn">
+                        <img src="delete_13170203.png" width="15px" alt="delete">
+                    </button>
+                    <button class="btn edit-btn">
+                        <img src="image1.webp" width="25px" alt="edit">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
